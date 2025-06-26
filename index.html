@@ -1,115 +1,139 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis Recetas</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
     <header>
-        <h1>Estas son mis recetas, las cuales fueron elaboradas por Emanuel</h1>
-        <nav >
-            <ul style="display: flex; flex-direction:row; gap: 100px;">
-                <a href="#mango">Torta de Mango</a>
-                <a href="#pasta">Pasta con Frijoles</a>
-                <a href="#cachapa">Cachapa</a>
-        </nav>
-    </header>
+    <div id="titulo">
+        <h1>Estas son mis recetas</h1>
+    </div>
+    <div id="menu">
+        <a href="#mango">Torta de Mango</a>
+        <a href="#pasta">Pasta con Frijoles</a>
+        <a href="#cachapa">Cachapa</a>
+    </div>
+</header>
     <main>
-        <section >
-            <article >
+        <!-- seccion para la torta -->
+        <section class="receta" id="mango">
+            <article>
                 <h2>Torta de Mango</h2>
-                <img src="img/torta.jpg" alt="Torta de Mango" width="300" height="200">
-                <h3>Ingredientes</h3>
-                <ul>
-                    <li>5 mangos maduros, pelados y sin la semilla</li>
-                    <li>2 tazas de harina de trigo</li>
-                    <li>1 taza de azúcar</li>
-                    <li>4 huevos</li>
-                    <li>500 gr taza de mantequilla</li>
-                    <li>1 cucharadita de polvo de hornear</li>
-                </ul>
-                <h3>Preparación</h3>
-                <ol>
-                    <li>Precalienta el horno a 180°C.</li>
-                    <li>Corta los mangos en trozos y tritura en la licuadora.</li>
-                    <li>Mezcla los ingredientes secos en un bol.</li>
-                    <li>Agrega los huevos, mantequilla y mango triturado.</li>
-                    <li>Vierte la mezcla en un molde y hornea por 40 minutos.</li>
-                    <li>Deja enfriar antes de desmoldar.</li>
-                    <li>Decora con rodajas de mango si lo deseas.</li>
-                    <li>Disfruta de la deliciosa torta de mango.</li>
-                </ol>
+                <img src="img/torta.jpg" alt="Torta de Mango" >
+                <div class="ingredientes">
+                    <h3>Ingredientes</h3>
+                    <ul>
+                        <li>5 mangos maduros, pelados y sin la semilla</li>
+                        <li>2 tazas de harina de trigo</li>
+                        <li>1 taza de azúcar</li>
+                        <li>4 huevos</li>
+                        <li>500 gr taza de mantequilla</li>
+                        <li>1 cucharadita de polvo de hornear</li>
+                    </ul>
+                </div>
+
+                <div class="preparacion">
+                    <h3>Preparación</h3>
+                    <ol>
+                        <li>Precalienta el horno a 180°C.</li>
+                        <li>Corta los mangos en trozos y tritura en la licuadora.</li>
+                        <li>Mezcla los ingredientes secos en un bol.</li>
+                        <li>Agrega los huevos, mantequilla y mango triturado.</li>
+                        <li>Vierte la mezcla en un molde y hornea por 40 minutos.</li>
+                        <li>Deja enfriar antes de desmoldar.</li>
+                        <li>Decora con rodajas de mango si lo deseas.</li>
+                        <li>Disfruta de la deliciosa torta de mango.</li>
+                    </ol>
+                </div>
             </article>
         </section>
-        <section >
+        <!-- seccion para la pasta -->
+        <section class="receta" id="pasta">
             <article>
                 <h2>Pasta con Frijoles</h2>
-                <img src="img/pasta.jpg" alt="Pasta con Frijoles" width="300" height="200">
-                <h3>Ingredientes</h3>
-                <ul>
-                    <li>200g de pasta</li>
-                    <li>1 taza de frijoles cocidos</li>
-                    <li>1 tomate</li>
-                    <li>1 diente de ajo</li>
-                    <li>Sal y pimienta al gusto</li>
-                    <li>Aceite de oliva</li>
-                    <li>Queso rallado (opcional)</li>
-                    <li>Albahaca fresca (opcional)</li>
-                    <li>Salsas al gusto(Opcional)</li>
-                </ul>
-                <h3>Preparación</h3>
-                <ol>
-                    <li>Cocina la pasta según las instrucciones del paquete.</li>
-                    <li>Sofríe el ajo y el tomate picado.</li>
-                    <li>Escurre la pasta y añádela a la mezcla de frijoles.</li>
-                    <li>Agrega los frijoles y mezcla bien.</li>
-                    <li>Sirve caliente, espolvorea con queso y albahaca si lo deseas.</li>
-                    <li>Disfruta de tu pasta con frijoles estilo venezolano.</li>
-                </ol>
+                <img src="img/pasta.jpg" alt="Pasta con Frijoles" >
+
+                <div class="ingredientes">
+                    <h3>Ingredientes</h3>
+                    <ul>
+                        <li>200g de pasta</li>
+                        <li>1 taza de frijoles cocidos</li>
+                        <li>1 tomate</li>
+                        <li>1 diente de ajo</li>
+                        <li>Sal y pimienta al gusto</li>
+                        <li>Aceite de oliva</li>
+                        <li>Queso rallado (opcional)</li>
+                        <li>Albahaca fresca (opcional)</li>
+                        <li>Salsas al gusto(Opcional)</li>
+                    </ul>
+                </div>
+
+                <div class="preparacion">
+                    <h3>Preparación</h3>
+                    <ol>
+                        <li>Cocina la pasta según las instrucciones del paquete.</li>
+                        <li>Sofríe el ajo y el tomate picado.</li>
+                        <li>Escurre la pasta y añádela a la mezcla de frijoles.</li>
+                        <li>Agrega los frijoles y mezcla bien.</li>
+                        <li>Sirve caliente, espolvorea con queso y albahaca si lo deseas.</li>
+                        <li>Disfruta de tu pasta con frijoles estilo venezolano.</li>
+                    </ol>
+                </div>
             </article>
         </section>
-        <section >
+        <!-- seccion para la cachapa -->
+        <section class="receta" id="cachapa">
             <article>
                 <h2>Cachapa</h2>
-                <img src="img/cachapa.jpg" alt="Cachapa de plátano" width="300" height="200">
-                <h3>Ingredientes</h3>
-                <ul>
-                    <li>2 plátanos maduros</li>
-                    <li>Queso llanero</li>
-                    <li>Jamon</li>
-                    <li>Carne Mechada</li>
-                    <li>Sal al gusto</li>
-                    <li>Aceite para freír</li>
-                    <li>Mayonesa, Ketchup, Mostaza (Salsas)</li>
-                </ul>
-                <h3>Preparación</h3>
-                <ol>
-                    <li>Pela y corta los platanos en forma transversal.</li>
-                    <li>Tritura los platanos con una prensa o plato llano</li>
-                    <li>Calienta el aceite en una sartén.</li>
-                    <li>Vierte porciones y fríe hasta dorar por ambos lados.</li>
-                    <li>Rellena con queso, jamón y carne mechada.</li>
-                    <li>Agrega mayonesa, ketchup y mostaza al gusto.</li>
-                    <li>Disfruta de tu cachapa con plátano.</li>
-                </ol>
+                <img src="img/cachapa.jpg" alt="Cachapa de plátano" >
+
+                <div class="ingredientes">
+                    <h3>Ingredientes</h3>
+                    <ul>
+                        <li>2 plátanos maduros</li>
+                        <li>Queso llanero</li>
+                        <li>Jamon</li>
+                        <li>Carne Mechada</li>
+                        <li>Sal al gusto</li>
+                        <li>Aceite para freír</li>
+                        <li>Mayonesa, Ketchup, Mostaza (Salsas)</li>
+                    </ul>
+                </div>
+
+                <div class="preparacion">
+                    <h3>Preparación</h3>
+                    <ol>
+                        <li>Pela y corta los platanos en forma transversal.</li>
+                        <li>Tritura los platanos con una prensa o plato llano</li>
+                        <li>Calienta el aceite en una sartén.</li>
+                        <li>Vierte porciones y fríe hasta dorar por ambos lados.</li>
+                        <li>Rellena con queso, jamón y carne mechada.</li>
+                        <li>Agrega mayonesa, ketchup y mostaza al gusto.</li>
+                        <li>Disfruta de tu cachapa con plátano.</li>
+                    </ol>
+                </div>
             </article>
         </section>
         <!--video con la etiqueta video-->
-        <section>
+        <section class="receta">
             <article>
                 <h2>Video de Preparación</h2>
-                <video width="600" height="400" controls>
+                <video width="830" height="400" controls>
                     <source src="video/receta.mp4" type="video/mp4">
-                    No soporta.
+                    Tu navegador no lo soporta.
                 </video>
             </article>
-        
+
     </main>
     <footer>
         <p>Realizado por Emanuel Acosta , Curso PRO301-1583-225031-TLP-TALLER DE APLICACIONES PARA INTERNET</p>
         <p>Fecha de creación: 2025</p>
-
     </footer>
 </body>
+
 </html>
